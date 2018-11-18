@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MyApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <picker height="100" alignment="left" id="9e0-2H-4Bp"/>
+                        <button width="1" alignment="left" title="Button" id="EFg-ZM-FwR">
+                            <connections>
+                                <segue destination="kKp-dK-bfl" kind="push" id="zhT-BU-Wl0"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="K1l-hV-j0H">
+            <objects>
+                <controller id="kKp-dK-bfl" customClass="InterfaceController" customModule="MyApp_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Einkaufsliste" id="QsX-94-l76">
+                            <connections>
+                                <segue destination="osg-e2-haM" kind="push" id="bT3-Fp-s8C"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Lagerstand" id="QcO-Xj-eda">
+                            <connections>
+                                <segue destination="YL7-cH-GTF" kind="push" id="kaT-t2-d6e"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="495" y="348"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="oid-Xy-y8s">
+            <objects>
+                <controller id="osg-e2-haM"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="186"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="1hl-b6-jud">
+            <objects>
+                <controller id="YL7-cH-GTF"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="452"/>
+        </scene>
+    </scenes>
+</document>
