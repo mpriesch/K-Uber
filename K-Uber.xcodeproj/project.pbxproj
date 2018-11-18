@@ -29,14 +29,14 @@
 			containerPortal = 3F17E70D217A40A6007E2DD7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3F17E726217A40A7007E2DD7;
-			remoteInfo = "MyApp WatchKit App";
+			remoteInfo = "K-Uber WatchKit App";
 		};
 		3F17E738217A40A8007E2DD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F17E70D217A40A6007E2DD7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3F17E735217A40A8007E2DD7;
-			remoteInfo = "MyApp WatchKit Extension";
+			remoteInfo = "K-Uber WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -197,7 +197,7 @@
 				3F17E739217A40A8007E2DD7 /* PBXTargetDependency */,
 			);
 			name = "K-Uber WatchKit App";
-			productName = "MyApp WatchKit App";
+			productName = "K-Uber WatchKit App";
 			productReference = 3F17E727217A40A7007E2DD7 /* K-Uber WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
@@ -214,7 +214,7 @@
 			dependencies = (
 			);
 			name = "K-Uber WatchKit Extension";
-			productName = "MyApp WatchKit Extension";
+			productName = "K-Uber WatchKit Extension";
 			productReference = 3F17E736217A40A8007E2DD7 /* K-Uber WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
@@ -474,13 +474,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MyApp WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "K-Uber WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = b.MyApp.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "b.K-Uber.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -495,13 +495,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MyApp WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "K-Uber WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = b.MyApp.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = "b.K-Uber.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -517,9 +517,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				IBSC_MODULE = MyApp_WatchKit_Extension;
-				INFOPLIST_FILE = "MyApp WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = b.MyApp.watchkitapp;
+				IBSC_MODULE = "K-Uber_WatchKit_Extension";
+				INFOPLIST_FILE = "K-Uber WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "b.K-Uber.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -535,9 +535,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				IBSC_MODULE = MyApp_WatchKit_Extension;
-				INFOPLIST_FILE = "MyApp WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = b.MyApp.watchkitapp;
+				IBSC_MODULE = "K-Uber_WatchKit_Extension";
+				INFOPLIST_FILE = "K-Uber WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "b.K-Uber.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

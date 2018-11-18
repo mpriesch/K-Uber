@@ -69,7 +69,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/MyApp WatchKit App">
+         RemotePath = "/K-Uber WatchKit App">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F17E726217A40A7007E2DD7"
@@ -99,7 +99,7 @@
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
-         RemotePath = "/MyApp WatchKit App">
+         RemotePath = "/K-Uber WatchKit App">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3F17E726217A40A7007E2DD7"
